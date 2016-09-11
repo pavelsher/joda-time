@@ -111,7 +111,7 @@ public class TestChronology extends TestCase {
     public void testTest() {
         assertEquals("2002-06-09T00:00:00.000Z", new Instant(TEST_TIME_NOW).toString());
         assertEquals("2002-04-05T12:24:00.000Z", new Instant(TEST_TIME1).toString());
-        assertEquals("2003-05-06T14:28:00.000Z", new Instant(TEST_TIME2).toString());
+        assertEquals("2003-05-06T14:28:00.001Z", new Instant(TEST_TIME2).toString());
     }
 
     //-----------------------------------------------------------------------
