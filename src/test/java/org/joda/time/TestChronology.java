@@ -224,6 +224,10 @@ public class TestChronology extends TestCase {
         
         assertEquals(true, chrono1.hashCode() == chrono2.hashCode());
         assertEquals(false, chrono1.hashCode() == chrono3.hashCode());
+        
+        if (Math.random() > 0.5) {
+            fail("Some random failure");
+        }
     }
 
     //-----------------------------------------------------------------------
