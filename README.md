@@ -1,6 +1,6 @@
 
 [![build status]( 
-http://localhost:8222/app/rest/builds/buildType:JodaTime_Build,pinned:true/statusIcon)](http://localhost:8222/viewLog.html?buildTypeId=JodaTime_Build&buildId=lastPinned) 
+http://localhost:8222/app/rest/builds/buildType:JodaTime_Build/statusIcon)](http://localhost:8222/viewLog.html?buildTypeId=JodaTime_Build&buildId=lastFinished) 
 
 
 Joda-Time fork for TeamCity demonstration
