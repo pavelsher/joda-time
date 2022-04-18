@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.joda.time;
+p ackage org.joda.time;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
