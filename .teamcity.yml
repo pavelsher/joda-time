@@ -6,3 +6,5 @@ jobs:
         goals: clean package
         jdk-home: '%env.JDK_21_0%'
         maven-version: auto
+secrets:
+  pwd: credentialsJSON:7e615871-5073-4a0a-aea3-d38ffaed8cc9
