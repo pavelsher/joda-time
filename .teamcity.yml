@@ -1,0 +1,8 @@
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: maven
+        goals: clean package
+        jdk-home: '%env.JDK_21_0%'
+        maven-version: auto
