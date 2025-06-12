@@ -4,10 +4,6 @@ jobs:
     steps:
       - type: script
         script-content: echo %pwd%
-      - type: maven
-        goals: clean
-        jdk-home: '%env.JDK_21_0%'
-        maven-version: auto
     files-publication:
       - target/test-classes/**/*
 secrets:
