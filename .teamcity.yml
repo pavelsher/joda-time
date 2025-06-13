@@ -4,6 +4,8 @@ jobs:
     steps:
       - type: script
         script-content: echo %pwd%
+      - type: maven
+        goals: clean package
     files-publication:
       - target/test-classes/**/*
   Job3:
