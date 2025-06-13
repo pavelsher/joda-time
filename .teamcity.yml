@@ -6,5 +6,14 @@ jobs:
         script-content: echo %pwd%
     files-publication:
       - target/test-classes/**/*
+  Job3:
+    name: Job 3
+    dependencies:
+      - Job1:
+          files:
+            - target/test-classes/**/*
+    steps:
+      - type: script
+        script-content: echo "Hi!"
 secrets:
   pwd: credentialsJSON:7e615871-5073-4a0a-aea3-d38ffaed8cc9
