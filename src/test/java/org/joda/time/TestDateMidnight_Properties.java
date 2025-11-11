@@ -143,6 +143,7 @@ public class TestDateMidnight_Properties extends TestCase {
 
     //-----------------------------------------------------------------------
     public void testPropertyGetCenturyOfEra() {
+        fail("lalala");
         DateMidnight test = new DateMidnight(2004, 6, 9);
         assertSame(test.getChronology().centuryOfEra(), test.centuryOfEra().getField());
         assertEquals("centuryOfEra", test.centuryOfEra().getName());
